@@ -116,6 +116,7 @@ header nav li a{
     }
     .m_link{
         margin-right:86px;
+        text-decoration: none;
     }
     .hr_section{
         background: #163A24;
