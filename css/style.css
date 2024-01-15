@@ -90,9 +90,8 @@ header nav li a{
         margin: auto;
     }
     .box_a{
-        max-width: 100%;
+        max-width: 1180px;
         margin: auto;
-        box-sizing: border-box;
     }
     .subject{
         margin-bottom: 67px;
@@ -105,14 +104,10 @@ header nav li a{
         line-height: 54px; /* 112.5% */
     }
     .box_2{
-        max-width:100%;
-        margin: auto;
-        display:table;
+        display:flex;
         height: 60px;
-        padding: 0px 44px 0px 44px;
-        justify-content: center;
+        justify-content:space-between;
         align-items: center;
-        gap: 86px;
     }
     .m_link{
         margin-right:86px;
@@ -177,7 +172,7 @@ header nav li a{
     background: #F2EFE6;
 }
 .wrap{
-    max-width: 100%;
+    max-width:1180px;
     margin: auto;
     display:block;
     text-align: center;
