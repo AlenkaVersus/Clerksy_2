@@ -377,7 +377,164 @@ article li{
 .consider article li{
     padding-bottom:15px;
 }
+.easy{
+    background: #F2EFE6;
+    padding-top: 114px;
+    padding-bottom: 124px;
+}
+.easy_wrapper{
+    display: flex;
+    justify-content: center;
+    max-width: 1180px;
+    margin: auto;
+    flex-direction:column;
+    align-items: center;
+    gap: 26px;
+}
+.easy h2{
+    margin-bottom: 26px;
+    color: #163A24;
+    text-align: center;
+    font-family: Recoleta;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px; /* 114.894% */
+}
+.easy p{
+    margin-bottom: 18px;
+    color: #163A24;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+}
+.easy_box{
+    margin: auto;
+    display:flex;
+    gap: 140px;
+    align-items: center;
+}
+.easy_box p{
+    color: #163A24;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+}
+.easy_box h2{
+    color: #163A24;
+    text-align: center;
+    font-family: Recoleta;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 112.5% */
+}
+.catalog{
+    margin-bottom: 13px;
+    position:relative;
+}
+.easy_5min::after{
+    content: url(../images/arrow_top.png);
+    display: inline-block;
+    position: absolute;
+    top: 47%;
+    right: 65%;
+}
+.easy_24h::after {
+    content: url(../images/arrow_down.png);
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    right: 30%;
+}
+.price_back{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 6px;
+    position: relative;
+}
+.back_circle{
+    box-sizing: border-box;
+    width:auto;
+    height: auto;
+    position:absolute;
+    display: flex;
+}
+.book_link{
+    border-radius: 160px;
+    background: #198C36;
+    width: 244px;
+    height: 52px;
+    color: #FBFAF7;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+
+.resource{
+    padding: 120px 0;
+    margin: auto;
+}
+.box_resource{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.caption_text {
+    color: #163A24;
+    font-family: "Recoleta";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+.simple_text{
+    color: #163A24;
+    font-family: "Recoleta";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.download_link{
+    color: #FBFAF7;
+    font-family: "Recoleta";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_download{
+    border-radius: 160px;
+    background: #198C36;
+    padding: 15px 20px;
+    width: 191px;
+}
 
 
 
