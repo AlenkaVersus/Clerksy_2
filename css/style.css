@@ -24,7 +24,7 @@ header{
 }
 header nav ul{
     display: flex;
-    justify-content: end;
+    justify-content:end;
     list-style: none;
 }
 header nav li{
@@ -96,7 +96,6 @@ header nav li a{
         max-width: 984px;
         margin: auto;
         display: flex;
-        height: 509px;
         padding: 0px 98px 0px 98px;
         justify-content: center;
         align-items: center;
@@ -468,9 +467,10 @@ article li{
     background-size:100%;
 }
 .book_link{
+    padding-left: 25px;
+    padding-right: 25px;
     border-radius: 160px;
     background: #198C36;
-    width: 244px;
     height: 52px;
     color: #FBFAF7;
     text-align: center;
@@ -543,7 +543,7 @@ article li{
     padding-top: 20px;
     background: #163A24;
 }
-.get_container h1 {
+.get_container h2 {
     font-family: Recoleta;
     font-style: normal;
     font-weight: 600;
