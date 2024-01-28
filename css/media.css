@@ -1,0 +1,181 @@
+@media screen and (max-width: 508px) {
+    .container {
+        display: block;
+        justify-items: center;
+    }
+
+    header img {
+        margin-left: 120px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .box {
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+
+    .pt_article {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .picture {
+        margin: auto;
+        width: 90%;
+    }
+
+    .human {
+        padding-top: 20px;
+    }
+
+    .wrap_human {
+        display: block;
+        margin: auto;
+        padding: 0 20px;
+        align-items: center;
+    }
+
+    .wrap_human img {
+        margin: auto;
+        width: 100%;
+    }
+
+    .human h2 p {
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .all_parts {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .box_all_parts {
+        display: block;
+        margin: auto;
+        padding: 0 20px;
+        align-items: center;
+    }
+
+    .box_all_parts img {
+        margin: auto;
+        width: 100%;
+    }
+
+    .we_partners {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .box {
+        display: block;
+        text-align: center;
+    }
+
+    .box_2 {
+        display: block;
+        align-items: center;
+        padding-left: 60px;
+    }
+
+    .focus_section img {
+        display: none;
+    }
+
+    .wrap h2 p {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    .fit_together {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .together {
+        display: block;
+
+        text-align: center;
+
+    }
+
+    .together img {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .container {
+        padding-bottom:10px;
+    }
+
+    .box_articles {
+        display: block;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 428px){
+    .easy{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        display: block;
+    }
+    .easy_box{
+        display: block;
+        flex-wrap: wrap;
+    }
+    .easy_5min{
+        position: relative;
+        padding-bottom: 25px;
+    }
+    .easy_5min::after {
+        position: absolute;
+rotate: 90deg;
+        top: 97%;
+        right: 37%;
+}
+    .easy_24h {
+        position: relative;
+        padding-top: 45px;
+        padding-bottom: 5px;
+        margin-right: 0;
+    }
+    .price{
+        padding-top:98px;
+
+    }
+.easy_24h::before {
+    position: absolute;
+rotate:90deg;
+    top: 97%;
+    right: 30%;
+    }
+.resource{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.box_resource{
+    display: block;
+}
+.wrap_res{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 20px
+}
+.img_exper img{
+    width: 100%;
+}
+.get_started{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.get_started img{
+    display: none;
+}
+}
+
+
