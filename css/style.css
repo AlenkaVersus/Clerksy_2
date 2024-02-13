@@ -186,6 +186,11 @@ header nav li a{
         padding-top: 66px;
         padding-bottom: 120px;
     }
+    .owl-carousel .owl-item img{
+        max-width: 245px;
+        width: auto;
+        display: inline-block;
+    }
     .box_hr{
         max-width:100%;
         margin: auto;
