@@ -4,9 +4,24 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: Recoleta;
-    src: url("../fonts/RecoletaAlt-SemiBold.ttf");
+    font-family: 'recoletasemibold';
+    src: url('../fonts/recoleta-semibold-webfont.eot');
+    src: url('../fonts/recoleta-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/recoleta-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/recoleta-semibold-webfont.woff') format('woff'),
+    url('../fonts/recoleta-semibold-webfont.ttf') format('truetype');
     font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'noto_sansregular';
+    src: url('../fonts/notosans-regular-webfont.eot');
+    src: url('../fonts/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/notosans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/notosans-regular-webfont.woff') format('woff'),
+    url('../fonts/notosans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
 }
 body{
@@ -40,7 +55,7 @@ header nav li a{
     font-family: 'Noto Sans', sans-serif;
     color: #FBFAF7;
     text-align: right;
-    font-family: Noto Sans;
+    font-family: "Noto Sans";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -77,7 +92,7 @@ header nav li a{
 .caption{
         margin-bottom: 18px;
         color: #FBFAF7;
-        font-family: Recoleta;
+        font-family: 'recoletasemibold';
         font-size: 48px;
         font-style: normal;
         font-weight: 600;
@@ -86,7 +101,7 @@ header nav li a{
     .subtitle{
         margin-right: 17px;
         color: #FBFAF7;
-        font-family: Noto Sans;
+        font-family: "Noto Sans";
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -111,7 +126,7 @@ header nav li a{
         max-width: 325px;
         margin-bottom: 28px;
         color: #163A24;
-        font-family: Recoleta;
+        font-family: 'recoletasemibold';
         font-size: 48px;
         font-style: normal;
         font-weight: 600;
@@ -140,7 +155,7 @@ header nav li a{
         max-width: 376px;
         margin-bottom: 27px;
         color: #163A24;
-        font-family: Recoleta;
+        font-family: 'recoletasemibold';
         font-size: 48px;
         font-style: normal;
         font-weight: 600;
@@ -169,7 +184,7 @@ header nav li a{
         margin-bottom: 67px;
         color: #163A24;
         text-align: center;
-        font-family: Recoleta;
+        font-family: 'recoletasemibold';
         font-size: 48px;
         font-style: normal;
         font-weight: 600;
@@ -206,7 +221,7 @@ header nav li a{
         margin-bottom: 74px;
         color: #FBFAF7;
         text-align: center;
-        font-family: Recoleta;
+        font-family: 'recoletasemibold';
         font-size: 48px;
         font-style: normal;
         font-weight: 600;
@@ -221,7 +236,7 @@ header nav li a{
 .text{
     color: #FBFAF7;
     text-align: center;
-    font-family: Noto Sans;
+    font-family: "Noto Sans";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -257,7 +272,7 @@ header nav li a{
 .focus_headline{
     color: #163A24;
     text-align: center;
-    font-family: Recoleta;
+    font-family: 'recoletasemibold';
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -266,7 +281,7 @@ header nav li a{
 .focus_subtitle{
     color: #163A24;
     text-align: center;
-    font-family: Noto Sans;
+    font-family: "Noto Sans";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -291,7 +306,7 @@ header nav li a{
     max-width:338px;
     margin-bottom: 27px;
     color: #163A24;
-    font-family: Recoleta;
+    font-family: 'recoletasemibold';
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -325,7 +340,7 @@ header nav li a{
     margin-bottom:26px;
     color: #163A24;
     text-align: center;
-    font-family: Recoleta;
+    font-family: 'recoletasemibold';
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -357,7 +372,7 @@ header nav li a{
 }
 .article_title{
     color: #163A24;
-    font-family: Recoleta;
+    font-family: 'recoletasemibold';
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
@@ -404,7 +419,7 @@ article li{
     margin-bottom: 26px;
     color: #163A24;
     text-align: center;
-    font-family: Recoleta;
+    font-family: 'recoletasemibold';
     font-size: 47px;
     font-style: normal;
     font-weight: 600;
@@ -439,7 +454,7 @@ article li{
 .easy_box h2{
     color: #163A24;
     text-align: center;
-    font-family: Recoleta;
+    font-family: 'recoletasemibold';
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
@@ -510,7 +525,7 @@ article li{
 }
 .caption_text {
     color: #163A24;
-    font-family: "Recoleta";
+    font-family: 'recoletasemibold';
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -519,7 +534,7 @@ article li{
 }
 .simple_text{
     color: #163A24;
-    font-family: "Recoleta";
+    font-family: 'recoletasemibold';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -528,7 +543,7 @@ article li{
 }
 .download_link{
     color: #FBFAF7;
-    font-family: "Recoleta";
+    font-family: 'recoletasemibold';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -554,7 +569,7 @@ article li{
     background: #163A24;
 }
 .get_container h2 {
-    font-family: Recoleta;
+    font-family: 'recoletasemibold';
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
