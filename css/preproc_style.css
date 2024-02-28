@@ -77,6 +77,7 @@ header nav ul li a .visual {
   margin: auto;
   max-width: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -113,7 +114,6 @@ header nav ul li a .visual {
 .human .wrap_human {
   max-width: 984px;
   margin: auto;
-  display: flex;
   padding: 0px 98px 0px 98px;
   justify-content: center;
   align-items: center;
@@ -191,6 +191,7 @@ header nav ul li a .visual {
 }
 .we_partners .box_2 {
   display: flex;
+  flex-wrap: wrap;
   height: 60px;
   justify-content: space-between;
   align-items: center;
@@ -324,6 +325,7 @@ header nav ul li a .visual {
   padding-right: 98px;
   flex-shrink: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 98px;
@@ -387,6 +389,7 @@ header nav ul li a .visual {
 }
 .consider .box_articles {
   display: flex;
+  flex-wrap: wrap;
   padding: 0px 20px;
   justify-content: center;
   align-items: flex-start;
@@ -441,6 +444,7 @@ header nav ul li a .visual {
   display: flex;
   gap: 140px;
   align-items: center;
+  justify-content: center;
 }
 .easy .easy_box p {
   color: #163A24;
@@ -468,15 +472,11 @@ header nav ul li a .visual {
   content: url(../images/arrow_top.png);
   display: inline-block;
   position: absolute;
-  top: 45%;
-  right: 67%;
 }
 .easy .easy_24h::before {
   content: url(../images/arrow_down.png);
   display: inline-block;
   position: absolute;
-  top: 45%;
-  right: 30%;
 }
 .easy .price {
   text-align: center;
@@ -520,6 +520,7 @@ header nav ul li a .visual {
   max-width: 1000px;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 100px;
@@ -666,11 +667,13 @@ header nav ul li a .visual {
   padding-top: 23px;
   padding-bottom: 23px;
   align-items: center;
+  flex-wrap: wrap;
 }
 .card_fo .people_company ul {
   list-style-type: none;
   display: flex;
   align-items: end;
+  margin: 70px;
 }
 .card_fo .people_company ul li:last-of-type,
 .card_fo .people_company ul li:nth-child(2),

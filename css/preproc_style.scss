@@ -92,6 +92,7 @@ header{
     margin: auto;
     max-width:100%;
     @include flexbox;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
@@ -128,7 +129,6 @@ header{
   .wrap_human{
     max-width: 984px;
     margin: auto;
-    @include flexbox;
     padding: 0px 98px 0px 98px;
     justify-content: center;
     align-items: center;
@@ -207,6 +207,7 @@ header{
   }
   .box_2{
     @include flexbox;
+    flex-wrap: wrap;
     height: 60px;
     justify-content:space-between;
     align-items: center;
@@ -344,6 +345,7 @@ header{
     padding-right: 98px;
     flex-shrink: 0;
     @include flexbox;
+    flex-wrap: wrap;
     justify-content:space-between;
     align-items: center;
     gap: 98px;
@@ -408,6 +410,7 @@ header{
   }
   .box_articles{
     @include flexbox;
+    flex-wrap: wrap;
     padding: 0px 20px;
     justify-content: center;
     align-items: flex-start;
@@ -463,6 +466,7 @@ header{
     @include flexbox;
     gap: 140px;
     align-items: center;
+    justify-content: center;
     p{
       color: $main_color;
       text-align: center;
@@ -490,15 +494,13 @@ header{
     content: url(../images/arrow_top.png);
     display: inline-block;
     position: absolute;
-    top: 45%;
-    right: 67%;
+
   }
   .easy_24h::before {
     content: url(../images/arrow_down.png);
     display:inline-block;
     position: absolute;
-    top: 45%;
-    right: 30%;
+
   }
   .price{
     text-align: center;
@@ -546,6 +548,7 @@ header{
     max-width: 1000px;
     margin: auto;
     @include flexbox;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     gap: 100px;
@@ -702,11 +705,14 @@ header{
     padding-top: 23px;
     padding-bottom: 23px;
     align-items: center;
+    flex-wrap: wrap;
 
     ul {
       list-style-type: none;
       display: flex;
       align-items: end;
+      margin: 70px;
+
 
       li:last-of-type,
       li:nth-child(2),
