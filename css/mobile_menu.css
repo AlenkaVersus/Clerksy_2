@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px){
+@media screen and (max-width: 428px){
 .cd-header {
     -webkit-transition: -webkit-transform 0.5s;
     -moz-transition: -moz-transform 0.5s;
@@ -22,10 +22,10 @@
     -o-transform: translateY(80px);
     transform: translateY(80px); }}
 
-@media screen and (max-width: 508px){
-.cd-logo {
-    float: left;
-    margin-top: 28px; }
+@media screen and (max-width: 768px) {
+    .cd-logo {
+        float: left;
+    }
 
 .cd-3d-nav-trigger {
     position: relative;
@@ -38,7 +38,7 @@
     text-indent: 100%;
     white-space: nowrap;
     color: transparent;
-display: block;}
+    display: block;}
 .cd-3d-nav-trigger span,
 .cd-3d-nav-trigger span::before,
 .cd-3d-nav-trigger span::after {
@@ -119,7 +119,7 @@ display: block;}
     transition: transform 0.5s 0s, visibility 0.5s 0s; }}
 
 
-@media screen and (max-width: 508px) {
+@media screen and (max-width: 768px) {
 .cd-3d-nav {
     /* this is the 3D rotating navigation */
     position: relative;
@@ -222,7 +222,7 @@ display: block;}
     -moz-transition: opacity 0.5s 0s, visibility 0s 0.5s;
     transition: opacity 0.5s 0s, visibility 0s 0.5s; } }
 
-@media screen and (max-width: 508px) {
+@media screen and (max-width: 428px) {
 .cd-marker {
     /* line at the bottom of nav selected item */
     position: absolute;

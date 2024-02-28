@@ -206,7 +206,7 @@ header{
     line-height: 54px; /* 112.5% */
   }
   .box_2{
-    display:flex;
+    @include flexbox;
     height: 60px;
     justify-content:space-between;
     align-items: center;
@@ -343,7 +343,7 @@ header{
     padding-left:98px;
     padding-right: 98px;
     flex-shrink: 0;
-    display: flex;
+    @include flexbox;
     justify-content:space-between;
     align-items: center;
     gap: 98px;
@@ -460,7 +460,7 @@ header{
   .easy_box{
     max-width: 100%;
     margin: auto;
-    display:flex;
+    @include flexbox;
     gap: 140px;
     align-items: center;
     p{
@@ -528,7 +528,7 @@ header{
     line-height: normal;
     text-decoration: none;
     margin: auto;
-    display: flex;
+    @include flexbox;
     justify-content: center;
     align-items: center;
   }
@@ -545,7 +545,7 @@ header{
   .box_resource{
     max-width: 1000px;
     margin: auto;
-    display: flex;
+    @include flexbox;
     align-items: center;
     justify-content: space-between;
     gap: 100px;
@@ -582,7 +582,7 @@ header{
       line-height: normal;
       text-decoration: none;
       margin: auto;
-      display: flex;
+      @include flexbox;
       justify-content: center;
       align-items: center;
     }
@@ -590,7 +590,7 @@ header{
 }
 
 .get_started{
-  display: flex;
+  @include flexbox;
   justify-content: space-between;
   align-items: center;
   margin-top: 120px;
@@ -637,3 +637,168 @@ header{
     display: none;
   }
 }
+
+.stay_up {
+  background: #F2EFE6;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  article {
+    max-width: 1180px;
+    margin: auto;@include flexbox;
+    justify-content: space-between;
+
+    .date_box, .sign_up_box {
+      max-width: 590px;
+    }
+
+    .date_box {
+      h3 {
+        font-family: $main_font;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 112%;
+        color: $main_color;
+        max-width: 342px;
+        padding-bottom: 26px;
+      }
+
+      p {
+        font-family: $minor_font;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: $main_color;
+        max-width: 299px;
+      }
+    }
+
+    .sign_up_box {
+      p {
+        font-family: $minor_font;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: $main_color;
+
+        a {
+          font-family: $minor_font;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 150%;
+          color: #198c36;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.card_fo {
+  padding-top: 20px;
+  background-color: white;
+
+  .people_company {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    align-items: center;
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      align-items: end;
+
+      li:last-of-type,
+      li:nth-child(2),
+      li:nth-child(3) {
+        padding-left: 14px;
+      }
+
+      img {
+        margin-right: 20px;
+      }
+
+      li::marker {
+        content: "";
+        width: 0;
+        height: 0;
+        color: transparent;
+      }
+    }
+
+    p {
+      font-family: $main_font;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 150%;
+      text-align: center;
+      color: $main_color;
+    }
+  }
+}
+
+.content_end {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  div {
+    max-width: 1180px;
+    margin: auto;
+    @include flexbox;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    border-top: $minor_color solid 3px;
+
+    ul {
+      list-style-type: none;
+      @include flexbox;
+
+
+      a {
+        text-decoration: none;
+        font-family: $minor_font;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: right;
+        color: #198c36;
+      }
+    }
+  }
+}
+
+.sign_up_box form {
+  max-width: 590px;
+  background: #F2EFE6;
+  border-radius: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 11px;
+
+  input {
+    width: calc(100% - 40px);
+    height: inherit;
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-right: -40px;
+  }
+
+  button {
+    border: none;
+    border-radius: 30px;
+    width: 111px;
+    height: 52px;
+    background: #15762e;
+    font-family: $minor_font;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: $minor_color;
+  }
+}
+

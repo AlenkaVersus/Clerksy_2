@@ -1,4 +1,4 @@
-@media screen and (max-width: 508px) {
+@media screen and (max-width: 428px) {
     .container {
         display: block;
         justify-items: center;
@@ -177,5 +177,38 @@ rotate:90deg;
     display: none;
 }
 }
+
+@media screen and (max-width: 428px){
+.stay_up{
+    padding-top: 100px;
+}
+.stay_up article{
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.stay_up article .date_box, .stay_up article .sign_up_box{
+    padding-bottom: 20px;
+}
+.card_fo .people_company{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content_end div {
+    flex-wrap: wrap;
+}
+.content_end div p{
+    text-align: center;
+}
+.content_end div ul a:last-of-type{
+    padding: 5px;
+}
+.content_end div ul{
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+}}
+
+
 
 

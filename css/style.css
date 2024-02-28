@@ -609,65 +609,173 @@ article li{
     display: none;
 }
 
+.stay_up {
+    background: #F2EFE6;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.stay_up article {
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stay_up article .date_box, .stay_up article .sign_up_box {
+    max-width: 590px;
+}
+
+.stay_up article .date_box h3 {
+    font-family: 'recoletasemibold';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 112%;
+    color: #163a24;
+    max-width: 342px;
+    padding-bottom: 26px;
+}
+
+.stay_up article .date_box p {
+    font-family: "noto_sansregular";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #163a24;
+    max-width: 299px;
+}
+
+.stay_up article .sign_up_box p {
+    font-family: "noto_sansregular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #163a24;
+}
+
+.stay_up article .sign_up_box p a {
+    font-family: "noto_sansregular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #198c36;
+    text-decoration: none;
+}
 
 
+.card_fo {
+    padding-top: 20px;
+    background-color: white;
+}
+
+.people_company {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    align-items: center;
+}
+
+.card_fo .people_company {
+    position: relative;
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_fo .people_company ul {
+    list-style-type: none;
+    display: flex;
+    align-items: end;
+}
+
+.card_fo .people_company p {
+    font-family: 'recoletasemibold';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #163a24;
+}
+
+.card_fo .people_company ul li:last-of-type,
+.card_fo .people_company ul li:nth-child(2),
+.card_fo .people_company ul li:nth-child(3),
+.content_end div ul a:last-of-type {
+    padding-left: 14px;
+}
+
+.content_end {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content_end div {
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    border-top: #fbfaf7 solid 3px;
+}
+
+.content_end div ul a {
+    text-decoration: none;
+    font-family: "noto_sansregular";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    color: #198c36;
+}
+
+.content_end div ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.sign_up_box form {
+    max-width: 590px;
+    background: #F2EFE6;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 11px;
+}
+
+.sign_up_box form input {
+    width: calc(100% - 40px);
+    height: inherit;
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-right: -40px;
+}
+
+.sign_up_box form button {
+    border: none;
+    border-radius: 30px;
+    width: 111px;
+    height: 52px;
+    background: #15762e;
+    font-family: "noto_sansregular";
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fbfaf7;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.people_company ul li img {
+    margin-right: 20px;
+}
+.people_company ul li::marker {
+    content: "";
+    width: 0;
+    height: 0;
+    color: transparent;
+}
 
